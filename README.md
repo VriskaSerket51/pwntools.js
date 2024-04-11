@@ -1,2 +1,3 @@
 # pwntools.js
-Javascript wrapper for pwntools
+
+Javascript implement of pwntools
