@@ -1,0 +1,26 @@
+{
+  "name": "pwntools.js",
+  "version": "1.0.0",
+  "description": "Javascript implement of pwntools",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rimraf dist/ && tsc && tsc-alias"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VriskaSerket51/pwntools.js"
+  },
+  "keywords": [
+    "pwntools"
+  ],
+  "author": "IREVES",
+  "license": "MIT",
+  "dependencies": {
+    "rimraf": "^5.0.5",
+    "ts-node-dev": "^2.0.0",
+    "tsc-alias": "^1.8.8",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.4.5"
+  }
+}
